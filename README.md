@@ -5,6 +5,9 @@ Microsoft does not consider "email enumeration" a vulnerability, so this is taki
 
 This script allows for email validation with **zero login attempts** and only uses Microsoft's built-in Autodiscover API so it is invisible to the person/company who owns the email address.  Furthermore, this API call appears to be completely unthrottled and I was able to validate over 2,000 email addresses within 1 minute in my testing.
 
+## Installation
+pip install -r requirements.txt
+
 ## Usage
 The script is actually really basic and easy to use.  You make a file of the emails you want to see are valid or not and pass it as an argument to the script:
 
